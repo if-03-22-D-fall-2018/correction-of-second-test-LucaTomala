@@ -32,6 +32,7 @@ Dictionary new_dictionary ()
   Dictionary dict = (Dictionary)malloc(sizeof(struct DictionaryImplemantation));
   dict->head = 0;
   dict->tail = 0;
+  dict->iterated = 0;
   return dict;
 }
 
